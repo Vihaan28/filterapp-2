@@ -1,0 +1,27 @@
+body{
+    background-image:url("background.png");
+    
+
+}
+
+.btn-success:hover{
+ background-color: #ffa200;
+
+}
+h1{
+    font-size: 40px !important;
+}
+canvas{
+    animation-name: background_change_colors;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+@keyframes background_change_colors{
+
+    from{ box-shadow: 10px 10px 40px #95ff00}
+    to{ box-shadow: 10px 10px 50px #00fffb}
+}
